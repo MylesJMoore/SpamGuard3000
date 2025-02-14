@@ -10,15 +10,22 @@ Spam Guard 3000 is a Flask-based web application that detects spam messages usin
 
 ## 📦 Setup Instructions
 
-1. Install Dependencies
+1. Clone the repository:
+
+```bash
+git clone https://github.com/MylesJMoore/SpamGuard3000.git
+cd spam-guard-3000
+```
+
+2. Install Dependencies
    Ensure you have Python installed. Then, run:
    pip install -r requirements.txt
-2. Train the Model
+3. Train the Model
    python model.py
-3. Run the Flask App
+4. Run the Flask App
    Start the Flask server:
    python app.py
-4. Visit http://127.0.0.1:5000/ in your browser.
+5. Visit http://127.0.0.1:5000/ in your browser.
 
 ## 🛠 Tech Stack
 
